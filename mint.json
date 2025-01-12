@@ -33,18 +33,18 @@
   "navigation": [{
       "group": "Get Started",
       "pages": [
-        "introduction",
+        "introduction"
       ]
     },
     {
       "group": "Data Flow",
       "pages": [
         "essentials/data_schema",
-        "essentials/verification",
+        "essentials/verification"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/vchars_ai",
+    "x": "https://x.com/vchars_ai"
   }
 }
