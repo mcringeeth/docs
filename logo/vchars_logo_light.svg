@@ -5,7 +5,7 @@
 	</defs>
 	<style>
 		tspan { white-space:pre } 
-		.t0 { font-size: 500px;fill: #000000;font-weight: 700;font-family: "ChakraPetch-Bold", "Chakra Petch" } 
+		.t0 { font-size: 500px;fill: #000000;font-weight: 500;font-family: "ChakraPetch-Medium", "Chakra Petch" } 
 	</style>
 	<use id="Layer 7" href="#img1" x="207" y="128"/>
 	<text id="vChars AI" style="transform: matrix(1,0,0,1,967.348,623)" >
