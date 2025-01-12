@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "vChars AI",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/vchars_logo_1024.png",
+    "light": "/logo/vchars_logo_1024.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
