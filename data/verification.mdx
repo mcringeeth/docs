@@ -1,5 +1,84 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: 'Verification Process'
+description: 'Learn how Vana validates your data'
 ---
 
+At vChars, we ensure the integrity, authenticity, and quality of your data using advanced verification mechanisms, all while keeping your privacy intact. Below, we outline the secure and transparent process behind data verification.
+
+## 🔒 **Your Data, Your Privacy**
+
+* **Encrypted Data Only**: Your data never leaves your device unencrypted. All processing and validation occur in a secure environment, ensuring that only you have the right to disclose your information.
+
+* **Trusted Execution Environment (TEE)**: Data validation is performed inside a secure enclave, protecting it from unauthorized access or tampering.
+
+***
+
+## ✅ **The Verification Process**
+
+vChars AI employs a **Proof of Contribution** mechanism to evaluate and verify your data. Each dataset is validated across four key traits:
+
+### 1. **Uniqueness**
+
+We ensure your data is original by generating a cryptographic hash of the dataset and comparing it against existing hashes stored securely on Filebase.
+
+* If the hash is unique, your contribution is accepted.
+
+* Otherwise, the data is flagged as a duplicate.
+
+### 2. **Ownership**
+
+Ownership is verified through cryptographic checks using your Telegram WebApp data:
+
+* A secure hash is generated from your Telegram metadata and compared to your submission.
+
+* The process ensures the Telegram ID in the data matches your identity, confirming you own the data.
+
+### 3. **Authenticity**
+
+Authenticity checks verify the type of conversation data provided:
+
+* Only valid data types, such as **personal\_chat** or **ai\_chat**, are accepted.
+
+* This ensures that the data matches the expected format and use case.
+
+### 4. **Quality**
+
+We analyze the quality of your dataset based on the following factors:
+
+* **Content Quality**: Measures the ratio of meaningful messages versus empty or incomplete ones.
+
+* **Time Quality**: Penalizes large gaps in message timestamps or invalid date formats.
+
+* **Interaction Quality**: Evaluates engagement levels, such as replies and interactive content.
+
+Each component is scored individually, and an overall quality score is calculated using weighted averages.
+
+***
+
+## 📊 **How Data is Scored**
+
+The final score is determined as follows:
+
+* **Quality Score**: 60% weight
+
+* **Ownership Verification**: 40% weight
+
+* **Validity**: Data is considered valid only if the uniqueness score is 100%.
+
+Detailed stats and quality metrics are provided to you upon verification.
+
+***
+
+## 🌐 **Built on Vana**
+
+vChars operates on **Vana**, the blockchain designed for user-owned data. This means:
+
+* **Decentralized Trust**: Vana’s network ensures transparency and fairness in data validation.
+
+* **Secure Infrastructure**: Vana’s robust architecture, coupled with features like staking and governance, supports reliable and user-centric operations.
+
+With vChars and Vana, you can trust that your data remains **yours**, secure, and valuable.
+
+***
+
+For more technical insights, check out the [Proof of Contribution documentation](#link-to-proof-of-contribution-page) or contact our support team for assistance.
