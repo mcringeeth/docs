@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "vChars AI",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/vchars_logo_dark.png",
+    "light": "/logo/vchars_logo_light.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -19,8 +19,7 @@
     "name": "Application",
     "url": "https://t.me/vchars_bot/app?startapp=docs1"
   },
-  "anchors": [
-    {
+  "anchors": [{
       "name": "Website",
       "icon": "book-open-cover",
       "url": "https://vchars.ai"
@@ -31,8 +30,7 @@
       "url": "https://t.me/vchars_support"
     }
   ],
-  "navigation": [
-    {
+  "navigation": [{
       "group": "Get Started",
       "pages": [
         "introduction",
