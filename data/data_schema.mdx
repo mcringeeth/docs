@@ -1,0 +1,67 @@
+---
+title: "Data Schema"
+description: "Data Schema of the vChars AI data points."
+---
+
+vChars AI uses unified data schema by combining both Telegram chats schema and AI chats schema
+
+```md
+{
+  "name": "string  (optional)",
+  "type": "string",
+  "id": "number  (optional)",
+   "character_slug": "string  (optional)"
+   "character_level": "int  (optional)",
+   "uploader_tg_id": "int  (optional)",
+  "messages": [
+    {
+      "id": "number  (optional)",
+      "type": "string",
+      "date": "string",
+      "date_unixtime": "string (optional)",
+      "from": "string", 
+      "from_id": "string (optional)",
+      "text": "string" | [
+        {
+          "type": "string",
+          "text": "string"
+        }
+      ],
+      "text_entities": [
+        {
+          "type": "string",
+          "text": "string"
+        }
+      ] "(optional)",
+      
+      "edited": "string (optional)",
+      "edited_unixtime": "string (optional)",
+      "reply_to_message_id": "number (optional)",
+      "forwarded_from": "string (optional)",
+      "photo": "string (optional)",
+      "width": "number (optional)",
+      "height": "number (optional)",
+      "file": "string (optional)",
+      "file_name": "string (optional)",
+      "thumbnail": "string (optional)", 
+      "media_type": "string (optional)",
+      "mime_type": "string (optional)",
+      "duration_seconds": "number (optional)",
+      "reactions": [
+        {
+          "type": "string",
+          "count": "number",
+          "emoji": "string",
+          "recent": [
+            {
+              "from": "string",
+              "from_id": "string", 
+              "date": "string"
+            }
+          ]
+        }
+      ] "(optional)"
+    }
+  ]
+}
+```
