@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "vChars AI",
   "logo": {
-    "dark": "/logo/vchars_logo_dark.svg",
-    "light": "/logo/vchars_logo_light.svg"
+    "dark": "/logo/vchars_logo_1024.png",
+    "light": "/logo/vchars_logo_1024.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -19,7 +19,8 @@
     "name": "Application",
     "url": "https://t.me/vchars_bot/app?startapp=docs1"
   },
-  "anchors": [{
+  "anchors": [
+    {
       "name": "Website",
       "icon": "book-open-cover",
       "url": "https://vchars.ai"
@@ -30,7 +31,8 @@
       "url": "https://t.me/vchars_support"
     }
   ],
-  "navigation": [{
+  "navigation": [
+    {
       "group": "Get Started",
       "pages": [
         "introduction"
@@ -39,8 +41,8 @@
     {
       "group": "Data Flow",
       "pages": [
-        "essentials/data_schema",
-        "essentials/verification"
+        "/data/data_schema",
+        "/data/verification"
       ]
     }
   ],
