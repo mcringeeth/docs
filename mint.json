@@ -35,14 +35,14 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
+        "introduction"
       ]
     },
     {
       "group": "Data Flow",
       "pages": [
         "essentials/data_schema",
-        "essentials/verification",
+        "essentials/verification"
       ]
     }
   ],
